@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{de0b1af4-ec58-480b-916a-d3f10b50f757}">
+		<property name="volume">
+			<value>3</value>
+		</property>
+		<property name="name">
+			<value>ingame_MUSIC</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{caa1480c-182a-426a-bbe8-8f45863552ce}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b3f0159a-1c74-432a-bf68-46d4de2a5f40}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{74da2ce5-63ae-44ee-ac86-9f98ecdca555}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{caa1480c-182a-426a-bbe8-8f45863552ce}">
+		<relationship name="effects">
+			<destination>{b5600ff2-3f0b-41ab-b06f-8dbc8a42e00b}</destination>
+			<destination>{f05fcda7-27a7-4779-b6c8-3094511865ad}</destination>
+			<destination>{d595a6d5-7d93-4546-87de-4b8b94ab8382}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b3f0159a-1c74-432a-bf68-46d4de2a5f40}" />
+	<object class="MixerBusFader" id="{b5600ff2-3f0b-41ab-b06f-8dbc8a42e00b}" />
+	<object class="MultibandEqEffect" id="{f05fcda7-27a7-4779-b6c8-3094511865ad}">
+		<property name="filterTypeB">
+			<value>7</value>
+		</property>
+		<property name="filterTypeC">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>21999.9902</value>
+		</property>
+		<property name="qualityA">
+			<value>0.581413805</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{d595a6d5-7d93-4546-87de-4b8b94ab8382}">
+		<property name="wetLevel">
+			<value>-80</value>
+		</property>
+	</object>
+</objects>

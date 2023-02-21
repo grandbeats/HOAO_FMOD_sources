@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{82ead061-4b45-4d52-a3a5-f85968cdc831}">
+		<property name="color">
+			<value>Cyan Light 2</value>
+		</property>
+		<property name="name">
+			<value>SFX</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{0450eb32-4f31-4469-b263-942c8018b341}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{280d673b-238b-41a1-9f41-312bcb80bcc9}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{59fa9b58-21e6-4c6f-b182-d5249c8994ee}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{0450eb32-4f31-4469-b263-942c8018b341}">
+		<relationship name="effects">
+			<destination>{c1a5ab15-a45f-4baa-9b63-86dccccbd4d0}</destination>
+			<destination>{4dbdad58-a444-4697-b367-3e3dc2831071}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{280d673b-238b-41a1-9f41-312bcb80bcc9}" />
+	<object class="MixerBusFader" id="{c1a5ab15-a45f-4baa-9b63-86dccccbd4d0}" />
+	<object class="LimiterEffect" id="{4dbdad58-a444-4697-b367-3e3dc2831071}">
+		<property name="ceiling">
+			<value>-1</value>
+		</property>
+	</object>
+</objects>
