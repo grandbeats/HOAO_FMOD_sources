@@ -10,4 +10,9 @@ HOAO_fmod_GB/Metadata/ProfilerSession/
 HOAO_fmod_GB/Metadata/ProfilerFolder/
 HOAO_fmod_GB/Metadata/SandboxFolder/
 HOAO_fmod_GB/Metadata/SandboxScene/
+HOAO_fmod_GB/Assets/.uasset/
+HOAO_fmod_GB/Assets/Music/.uasset/
+HOAO_fmod_GB/Assets/Ambient/.uasset/
+HOAO_fmod_GB/Assets/SFX/.uasset/
+HOAO_fmod_GB/Assets/UI/.uasset/
 
