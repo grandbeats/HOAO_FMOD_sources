@@ -5,7 +5,7 @@
 			<value>Green</value>
 		</property>
 		<property name="name">
-			<value>amb_elevator_mvmnt</value>
+			<value>amb_elevator_mvmnt_bckp</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -187,9 +187,6 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{65cdece2-9d4f-4ee3-90c3-a04ef46112ec}">
-		<property name="start">
-			<value>0.60715615714139526</value>
-		</property>
 		<property name="length">
 			<value>2.7010416666666668</value>
 		</property>
@@ -304,7 +301,7 @@
 	</object>
 	<object class="TransitionMarker" id="{c53a1fd5-c355-4668-9f71-60d8764737a4}">
 		<property name="position">
-			<value>1.375</value>
+			<value>0.76784384285860474</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{962d6cc5-daa6-441f-a596-3f34a215e198}</destination>

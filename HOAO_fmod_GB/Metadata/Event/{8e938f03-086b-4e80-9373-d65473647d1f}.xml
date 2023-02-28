@@ -8,7 +8,7 @@
 			<value>amb_hell_05</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{976b2e34-4900-44bb-b4d9-809f9ab25247}</destination>
@@ -33,6 +33,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{971c8358-8d5b-497d-935f-770dac5f6788}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{db8b4100-6d90-487d-b113-ee7f6dd4d5d4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{927c0836-4512-4586-88ee-cfd8910fe20b}">
@@ -82,6 +85,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{87acc044-ae44-4242-8848-0e361780ce9f}">
+		<relationship name="modulators">
+			<destination>{97950cf8-cf95-432e-9928-20af67f968b7}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{75152510-de0f-4182-bc4d-62137dd55647}</destination>
 		</relationship>
@@ -112,14 +118,8 @@
 	</object>
 	<object class="MixerBusPanner" id="{7917654a-32f0-4563-8dab-d451341bddc1}" />
 	<object class="SingleSound" id="{d1bc65c7-faaa-4cb7-bbb7-058537d58ba5}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
 		<property name="length">
 			<value>29.2786875</value>
-		</property>
-		<property name="looping">
-			<value>true</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{f8c92c08-2875-4221-b51f-4a9041a16ba1}</destination>
@@ -189,10 +189,23 @@
 			<destination>{f67987c8-68e7-4d45-a596-9011f836e5a1}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{97950cf8-cf95-432e-9928-20af67f968b7}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="releaseTime">
+			<value>2000</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{75152510-de0f-4182-bc4d-62137dd55647}">
 		<relationship name="effects">
 			<destination>{7c4dd37a-00ae-4e5e-b835-38c23a9641c9}</destination>
-			<destination>{1f06b203-f865-4b1a-a8a4-95dfc048847e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f74bd731-7de2-40e5-b66e-bcfe90572ef7}" />
@@ -237,7 +250,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{7c4dd37a-00ae-4e5e-b835-38c23a9641c9}" />
-	<object class="SpatialiserEffect" id="{1f06b203-f865-4b1a-a8a4-95dfc048847e}" />
 	<object class="AutomationPoint" id="{e5a17f06-2b81-484d-8bcc-ec1412453430}">
 		<property name="position">
 			<value>0.4415165803283102</value>
