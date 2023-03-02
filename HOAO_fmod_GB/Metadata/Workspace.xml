@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{6956fe85-aaaa-4e42-a1d8-6c173522386a}">
 		<property name="builtBanksOutputDirectory">
-			<value>banks</value>
+			<value>../../HOAO_GIT/Content/FMOD_studio_folder/HOAO_fmod_GB/banks</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{dfc9057f-7585-4cde-bb32-45f575b73afb}</destination>
@@ -20,7 +20,7 @@
 			<destination>{f7dd270c-7519-414a-835a-9d39fc920897}</destination>
 		</relationship>
 		<relationship name="masterSandboxFolder">
-			<destination>{e0b6d24a-47ae-40ac-897d-61b8be9efbfe}</destination>
+			<destination>{44df988a-c259-47b9-87e5-9f1ebd4e6ac2}</destination>
 		</relationship>
 		<relationship name="masterAssetFolder">
 			<destination>{165a6e82-17b4-42f1-98d1-9c0a5edfc6ab}</destination>
@@ -29,11 +29,10 @@
 			<destination>{55768edf-b0d9-47c0-97c1-ca20465c8542}</destination>
 		</relationship>
 		<relationship name="profilerSessionFolder">
-			<destination>{c92d3bb8-5950-4bf7-a986-e69f993a6c6a}</destination>
+			<destination>{7c962083-2445-4ba7-9b79-7a125d73060d}</destination>
 		</relationship>
 		<relationship name="platforms">
 			<destination>{e60f8d99-3720-480a-9d6a-ee9c5fbedb43}</destination>
-			<destination>{0012cb21-31fd-4598-b058-bd3facc4b366}</destination>
 		</relationship>
 	</object>
 </objects>
