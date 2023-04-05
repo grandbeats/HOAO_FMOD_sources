@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{6956fe85-aaaa-4e42-a1d8-6c173522386a}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../HOAO_GIT/Content/FMOD_studio_folder/HOAO_fmod_GB/banks</value>
+			<value>../../HOAO_repo/Content/FMOD_studio_folder/HOAO_fmod_GB/banks</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{dfc9057f-7585-4cde-bb32-45f575b73afb}</destination>

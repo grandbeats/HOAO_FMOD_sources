@@ -5,7 +5,7 @@
 			<value>Green</value>
 		</property>
 		<property name="name">
-			<value>amb_elevator_mvmnt_bckp</value>
+			<value>amb_elevator_mvmnt</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -36,6 +36,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{962d6cc5-daa6-441f-a596-3f34a215e198}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{db8b4100-6d90-487d-b113-ee7f6dd4d5d4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{d8875b01-5dca-4ed4-994f-9799c6c8e52d}">
